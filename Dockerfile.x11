@@ -1,0 +1,9 @@
+FROM debian:latest
+
+RUN apt-get update 
+RUN apt-get -y install \
+    net-tools \
+    x11-common \
+    x11-apps
+
+CMD [ "bash" ]

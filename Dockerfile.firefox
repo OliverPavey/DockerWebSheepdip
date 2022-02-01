@@ -1,0 +1,6 @@
+FROM sheepdip-x11
+
+RUN apt-get -y install \
+    firefox-esr
+
+CMD [ "firefox" ]
